@@ -1,0 +1,166 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+.main {
+    background-color: #5ce6e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .banner-img {
+        height: 350px;
+    }
+}
+
+.join-kleen-btn {
+    background-color: #443d66;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 8px 48px;
+    cursor: pointer;
+    border: 1px solid #d7eca9;
+    border-radius: 4px;
+    border-radius: 8px;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.banner-logo {
+    height: 50px;
+}
+
+.banner-title {
+    margin: 20px 0;
+    font-weight: bolder;
+}
+
+.gallery {
+    width: 80%;
+    margin: auto;
+}
+
+.gallery-item-ct {
+    display: flex;
+    padding: 8px;
+    margin: 16px auto;
+    gap: 36px;
+
+    div {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+}
+
+.why-kleen {
+    margin: 32px auto;
+    width: 80%;
+    display: flex;
+    gap: 16px;
+
+    ul,
+    .why-kleen-content {
+        flex: 1;
+    }
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.how-it-works-ct {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    align-items: center;
+}
+
+.why-it-works-sec-ct {
+    width: 85%;
+    margin: auto;
+
+    .card {
+        padding: 16px;
+        border: 1px solid #afeeee;
+
+        h3 {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.step {
+    color: #afeeee;
+    margin-left: 36px;
+}
+
+.buy-now-btn {
+    background-color: white;
+    color: black;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 32px;
+    width: max-content;
+    padding: 8px 32px;
+}
+
+.price-section {
+    text-align: center;
+    background: linear-gradient(white, #e6e5eb);
+    padding: 32px 0;
+}
+
+.price-cards-ct {
+    display: flex;
+    gap: 16px;
+    width: 80%;
+    margin: auto;
+    margin-top: 32px !important;
+
+    .card {
+        flex: 1;
+        align-items: flex-start;
+        border-radius: 12px;
+    }
+}
+
+.saving-btn {
+    color: white;
+    background-color: #443d66;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.video {
+    position: relative;
+
+    h3 {
+        color: white;
+        padding: 24px;
+    }
+
+    .bg-purple {
+        position: absolute;
+        height: 300px;
+        background: #443d66;
+        z-index: -1;
+        width: 100%;
+        top: 0;
+    }
+}
+
+.video-container {
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 24px;
+}
