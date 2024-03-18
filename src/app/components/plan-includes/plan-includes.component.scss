@@ -1,0 +1,38 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 10%;
+    background-color: #f6fefe;
+    margin: 100px auto;
+}
+
+.card-ct {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    margin: 24px;
+}
+
+img {
+    width: 80px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.card-title {
+    margin: 16px auto;
+    font-weight: bold;
+    font-size: 20px;
+}
