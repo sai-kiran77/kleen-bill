@@ -164,3 +164,50 @@ header {
     margin: auto;
     margin-top: 24px;
 }
+
+@media screen and (max-width: 768px) {
+    .main {
+        .banner-img-ct {
+            display: none;
+        }
+    }
+
+    .video-container {
+        width: 95%;
+    }
+
+    .gallery {
+        width: 95%;
+
+        .gallery-item-ct {
+            flex-direction: column;
+        }
+    }
+
+    .price-section {
+        padding: 32px 5%;
+
+        .price-cards-ct {
+            flex-direction: column;
+        }
+    }
+
+    .why-it-works-sec-ct{
+        .how-it-works-ct{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .column-reverse{
+        flex-direction: column-reverse !important;
+    }
+
+    .why-kleen{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .left-main-ct{
+        padding: 64px !important;
+    }
+}

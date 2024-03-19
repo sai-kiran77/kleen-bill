@@ -11,6 +11,11 @@
     text-decoration: none;
 }
 
-.cursor-pointer{
+.cursor-pointer {
     cursor: pointer;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
 }
