@@ -53,7 +53,11 @@
 }
 
 @media screen and (max-width: 768px) {
-    .footer-links-ct{
+    .footer-links-ct {
         flex-wrap: wrap;
+    }
+
+    .footer-logo-ct {
+        background-color: #0000001c;
     }
 }

@@ -192,22 +192,26 @@ header {
         }
     }
 
-    .why-it-works-sec-ct{
-        .how-it-works-ct{
+    .why-it-works-sec-ct {
+        .how-it-works-ct {
             grid-template-columns: 1fr;
         }
     }
 
-    .column-reverse{
+    .column-reverse {
         flex-direction: column-reverse !important;
     }
 
-    .why-kleen{
+    .why-kleen {
         width: 90%;
         flex-direction: column;
     }
 
-    .left-main-ct{
+    .left-main-ct {
         padding: 64px !important;
+    }
+
+    header {
+        background-color: #0000001c;
     }
 }
